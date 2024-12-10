@@ -1,0 +1,420 @@
+body {
+    background-color: #111111;
+    color: #fff;
+    font-family: "JetBrains Mono", monospace;
+  }
+  /*navbar*/
+  .navbar {
+    background-color: #111111;
+    padding: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  /*logo*/
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+  /*main*/
+  .main-section {
+    height: 100vh;
+    text-align: center;
+    background-color: #111111;
+  }
+  /*overlay*/
+  .overlay {
+    background-color: rgba(16, 16, 16, 0.9);
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+  }
+  .overlay:hover {
+    background-color: rgba(16, 16, 16, 0.9);
+    opacity: 1;
+  }
+  
+  .overlay p {
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff;
+    padding: 3px 3px;
+  }
+  
+  .overlay a:hover {
+    color: #ccc;
+  }
+  /*welcome*/
+  .welcome-section {
+    background-color: #111111;
+    min-height: 60vh;
+  }
+  
+  .welcome-title h1 {
+    background-color: #fff;
+    color: #111111;
+    padding: 25px 30px;
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 500;
+  }
+  
+  .welcome-text p {
+    color: white;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  /*carousel*/
+  .carousel-section {
+    background-color: #fff;
+  }
+  /*review*/
+  .review-container {
+    margin-top: 50px;
+  }
+  .review-box {
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .review-stars {
+    color: #ffa600;
+  }
+  .progress {
+    height: 15px;
+  }
+  .avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  /*discover*/
+  .discover-section {
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-size: cover;
+  }
+  
+  .discover-section .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #111111;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .discover-section .icon-row .img-icon {
+    width: 100px;
+    height: auto;
+    margin: 0 15px;
+  }
+  
+  .tokped-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .tiktok-img {
+    width: 120px;
+    height: 120px;
+  }
+  /*footer*/
+  footer {
+    padding: 30px;
+    background-color: #111111;
+    color: white;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-links a:hover {
+    color: #ccc;
+  }
+  
+  /*Store*/
+  .store-image {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .store-image img {
+    width: 1403px;
+    height: 573px;
+    border-radius: 8px;
+  }
+  
+  .store-icon {
+    width: 200px;
+    height: auto;
+  }
+  
+  /* About us */
+  
+  .section-container {
+    text-align: center;
+    background-color: #111111;
+    padding-top: 3%;
+  }
+  
+  .highlight-bar {
+    background-color: white;
+    color: #111111;
+    padding: 5px;
+    margin: auto;
+    width: 60%;
+    color: black;
+    font-size: 48px;
+    font-family: JetBrains Mono;
+    font-weight: 500;
+  }
+  
+  .profile-image-container {
+    max-width: 600px;
+    border-radius: auto;
+    margin: auto;
+    border: 3px solid #000;
+    background-color: #111111;
+  }
+  
+  .profile-image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .profile-caption {
+    background-color: #000;
+    color: #fff;
+    padding: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  
+  .footer-text {
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: JetBrains Mono;
+    font-weight: 400;
+  }
+  
+  /*product*/
+  .product-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .rating {
+    font-size: 1.2rem;
+    color: gold;
+  }
+  .rating-1 {
+    color: #ccc;
+  }
+  .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .shop-now-btn {
+    color: #111111;
+    text-decoration: none;
+  }
+  
+  .product-details {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding-top: 5%;
+    text-align: justify;
+  }
+  
+  img.rounded-circle {
+    width: 331px;
+    height: 331px;
+    object-fit: cover;
+  }
+  
+  .Key-notes h3 {
+    color: #ffffff;
+    padding-top: 4%;
+  }
+  .menu-note p {
+    color: #ffffff;
+  }
+  .menu-note h5 {
+    color: #ffffff;
+    padding-top: 15%;
+  }
+  
+  /*Navbar Custom*/
+  .navbar-custom {
+    background-color: black;
+    padding: 10px 0;
+  }
+  .navbar-custom .nav-link {
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+  }
+  .navbar-custom .nav-link:hover {
+    color: #ccc;
+    font-weight: bold;
+    text-align: center;
+  }
+  .navbar-custom .nav-link.active {
+    color: white;
+  }
+  
+  /*Collections*/
+  .collection-section {
+    text-align: center;
+  }
+  .collection-section h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-family: JetBrains Mono;
+    line-height: 44px;
+  }
+  .collection-section p {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  /*contact*/
+  .contact-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .contact-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .contact-section p {
+    font-size: 16px;
+    color: grey;  
+  }
+  .contact-info {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .contact-info h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .contact-info p {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 20px;
+  }
+  .contact-info .info-item {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .contact-info .info-item i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .form-control,
+  .form-check-input {
+    border-radius: 0;
+  }
+  .send-btn {
+    background-color: #111111 !important;
+    border: none;
+    color: #fff !important;
+    margin-top: 1%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .send-btn:hover {
+    background-color: grey !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .perfume-bottlee img {
+      width: 200px !important;
+      height: 200px !important;
+    }
+    .welcome-text p {
+      margin-left: 20px !important;
+      margin-right: 20px !important;
+    }
+    .highlight-bar {
+      font-size: 30px;
+      margin: auto;
+      width: 80%;
+      padding: 5%;
+    }
+    .icon-row {
+      max-width: auto !important;
+    }
+    .discover-section .icon-row .img-icon {
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .tokped-img,
+    .tiktok-img {
+      width: 60px !important;
+      height: 60px !important;
+      margin: 0 5px !important;
+    }
+    .footer-links {
+      display: block !important;
+    }
+    .footer-items {
+      margin-bottom: 20px;
+    }
+  }
+  
